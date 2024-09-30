@@ -1,0 +1,212 @@
+/* INVITACIÓN*/
+
+.fondo {
+    height: 140vh; 
+    width: 100vw;  
+    margin: 0;     
+    padding: 0;    
+    background-image: url('imagenes/fondo\ humo.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.letra-inicio h3{
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;    
+}
+.letra-inicio h4{
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+    
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.letra-inicio h1 {
+    color: #c92ddd;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+    
+    font-size: 200px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dia p{
+    color: #ffffff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    transform: translate(-20%,-50%);
+    font-size: 50px;
+}
+.fecha{ 
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    transform: translate(-70%,-50%);
+    font-size: 50px;
+}
+.hora {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+}
+.hora li{
+    list-style: none;
+}
+.estrella{
+    position: absolute;
+    transform: translate(-70%,-50%);
+    top: 90%;
+    left: 30%;
+}
+.copas{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 100%;
+    left: 50%;
+}
+.notas{
+    position: absolute;
+    transform: translate(-30%,-50%);
+    top: 90%;
+    left: 70%;
+}
+.ubicacion{
+    position: absolute;
+    transform: translate(-30%,-50%);
+    top: 125%;
+    left: 30%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #e215fd;
+    height: 8%;
+    width: 10%;
+    font-size: 30px;
+}
+.ubicacion a{
+    color:#fff;
+}
+.asistencia{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 125%;
+    left: 50%;
+    text-align: center;
+    cursor: pointer;
+    color:#fff;
+    border: none;
+    background-color: #e215fd;
+    height: 8%;
+    width: 10%;
+    font-size: 30px;
+}
+.asistencia a{
+    color: beige;
+}
+.lista-deseos{
+    position: absolute;
+    transform: translate(-70%,-50%);
+    top: 125%;
+    left: 70%;
+    text-align: center;
+    cursor: pointer;
+    color:#fff;
+    border: none;
+    background-color: #e215fd;
+    height: 8%;
+    width: 10%;
+    font-size: 30px;
+}
+/*DESEOS*/
+
+.fondodeseos {
+    height: 140vh; 
+    width: 100vw;  
+    margin: 0;     
+    padding: 0;    
+    background-image: url('imagenes/fondo\ humo.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.titulo {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;    
+}
+.lista {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #8eb4e6, 0 0 30px #8eb4e6, 0 0 40px #8eb4e6, 0 0 50px #8eb4e6, 0 0 60px #8eb4e6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;  
+    font-size: 30px;
+}
+.mensaje {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-33%, -50%);
+    display: flex; 
+    font-size: 35px; 
+}
+.Invitacion{
+    position: absolute;
+    transform: translate(-70%,-50%);
+    top: 125%;
+    left: 70%;
+    text-align: center;
+    cursor: pointer;
+    color:#fff;
+    border: none;
+    background-color: #e215fd;
+    height: 8%;
+    width: 10%;
+    font-size: 30px;
+}
+.estrelladeseos{
+    position: absolute;
+    transform: translate(-70%,-50%);
+    top: 90%;
+    left: 30%;
+}
+.copasdeseos{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 15%;
+    left: 85%;
+}
+.notasdeseos{
+    position: absolute;
+    transform: translate(-30%,-50%);
+    top: 110%;
+    left: 85%;
+}
